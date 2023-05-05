@@ -139,7 +139,6 @@
   filter: blur(750px);
 }
 
-img:focus,
-button:focus {
-  outline: none;
-}
+img:focus {
+    outline: 2px dashed white;
+  }
