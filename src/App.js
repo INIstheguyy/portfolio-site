@@ -2,7 +2,7 @@ import styles from "./style";
 import { Navbar,Stats,Business,Billing,Testimonials,Clients,CTA,Footer,Hero} from "./components";
 function App() {
   return (
-    <div className=" bg-primary w-full overflow-hidden">
+    <div className=" bg-primary w-full overflow-hidden object-center">
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
               <Navbar/>
