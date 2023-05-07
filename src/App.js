@@ -1,8 +1,8 @@
 import styles from "./style";
-import { Navbar,Stats,Business,Billing,Testimonials,Clients,CTA,Footer,Hero} from "./components";
+import { Navbar,Stats,Business,Billing,Testimonials,Clients,CTA,Footer,Hero,CardDeal} from "./components";
 function App() {
   return (
-    <div className=" bg-primary w-full overflow-hidden object-center">
+    <div className=" bg-primary w-full overflow-hidden">
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
               <Navbar/>
@@ -18,6 +18,7 @@ function App() {
               <Stats/>
               <Business/>
               <Billing/>
+              <CardDeal/>
               <Testimonials/>
               <Clients/>
               <CTA/>
